@@ -6,7 +6,7 @@ Coming Soon™
 I use any/any pronouns
 # 🐢 About Me
 I’m a developer living in Switzerland (and a graphic designer). I have 6 repos on GitHub with one of them being **dead. dead as hell.** I make content on YouTube even though it was a ***wwwhhhhiiiiiiiilllllllleee*** since I’ve uploaded. I'm being on Discord all day able to respond to messages (not actually all day). I speak english, french and german fluently. (atleast I think so).
-My discord is ```Samiku#9686```
+My discord is ```kevadesu#9686```
 My revolt is ```@kevadesu```
 # 🔗 Links
 > [GitHub](https://github.com/kevadesu)
