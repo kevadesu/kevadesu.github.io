@@ -3,7 +3,7 @@ Welcome to my Website! Here you'll find infos about me and stuff.
 # 🌍 Origin
 Coming Soon™
 # 🐋 Pronouns
-I use any/any pronouns
+I don't care about which pronouns you use ngl
 # 🐢 About Me
 I’m a developer living in Switzerland (and a graphic designer). I have 6 repos on GitHub with one of them being **dead. dead as hell.** I make content on YouTube even though it was a ***wwwhhhhiiiiiiiilllllllleee*** since I’ve uploaded. I'm being on Discord all day able to respond to messages (not actually all day). I speak english, french and german fluently. (atleast I think so).
 My discord is ```kevadesu#9686```
