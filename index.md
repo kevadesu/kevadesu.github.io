@@ -38,6 +38,12 @@ Thanks for checking out my website!
 ### ***made with github pages and markdown***
 System info:
 
+<div id="webring-wrapper">
+  <a href="https://webring.hackclub.com/" id="previousBtn" class="webring-anchor" title="Previous">‹</a>
+  <a href="https://webring.hackclub.com/" class="webring-logo" title="Hack Club Webring" alt="Hack Club Webring"></a>
+  <a href="https://webring.hackclub.com/" id="nextBtn" class="webring-anchor" title="Next">›</a>
+  <script src="https://webring.hackclub.com/embed.min.js"></script>
+</div>
 
 <!-- This is the picture: https://unsplash.com/photos/PJNO2sLlbB8 -->
 
