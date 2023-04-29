@@ -1,7 +1,8 @@
+## kevadesu's website
 # Hello!
 Welcome to my Website! Here you'll find infos about me and stuff.
 # 🌍 Origin
-Coming Soon™
+~~Coming Soon™~~ I was born in Switzerland, while my roots are from the DRC.
 # 🐋 Pronouns
 I don't care about which pronouns you use ngl
 # 🐢 About Me
