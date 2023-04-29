@@ -10,7 +10,7 @@ I’m a developer living in Switzerland (and a graphic designer). I have 6 repos
 My discord is ```kevadesu#9686```
 My revolt is ```@kevadesu```
 # 🐧 System fetch
-[Click here to view](https://github.com/kevadesu/kevadesu.github.io/blob/main/fetch.txt)
+[Click here to view](https://kevadesu.github.io/fetch.txt)
 
 # 🔗 Links
 > [GitHub](https://github.com/kevadesu)
