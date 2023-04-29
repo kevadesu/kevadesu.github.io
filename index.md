@@ -1,3 +1,4 @@
+some part of this website is broken but just ignore it because idk how to fix it
 ## kevadesu's website
 # Hello!
 Welcome to my Website! Here you'll find infos about me and stuff.
