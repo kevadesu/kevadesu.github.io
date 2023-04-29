@@ -36,7 +36,6 @@ Thanks for checking out my website!
 
 
 ### ***made with github pages and markdown***
-System info:
 
 <div id="webring-wrapper">
   <a href="https://webring.hackclub.com/" id="previousBtn" class="webring-anchor" title="Previous">‹</a>
