@@ -16,7 +16,8 @@ h6 {
 
 p,
 a,
-li {
+li,
+details {
   color: #bac2de;
 }
 
