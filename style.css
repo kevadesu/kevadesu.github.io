@@ -75,3 +75,8 @@ code:hover {
     line-height: 1.5;
     white-space: pre;
 }
+
+.codeblock:hover {
+    background-color: rgba(50, 50, 50, 0.9); /* Slightly lighter on hover */
+    border-color: lightslategrey; /* Highlight the border */
+}
