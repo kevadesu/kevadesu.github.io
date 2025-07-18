@@ -81,3 +81,11 @@ code:hover,
     border-color: lightslategrey;
     /* Highlight the border */
 }
+
+@media (max-width: 1000px) {
+    .window {
+        width: 100%;
+        max-width: none;
+        min-width: auto;
+    }
+}
