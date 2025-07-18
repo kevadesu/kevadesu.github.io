@@ -28,7 +28,7 @@ body {
 }
 
 .window {
-    background-color: rgba(255, 255, 255, 0.849);
+    background-color: #FFFFFFD8;
     padding: 1rem;
     text-align: left;
     backdrop-filter: blur(8px) saturate(180%);
@@ -76,7 +76,7 @@ code,
 
 code:hover,
 .codeblock:hover {
-    background-color: rgba(50, 50, 50, 0.9);
+    background-color: #323232E6;
     /* Slightly lighter on hover */
     border-color: lightslategrey;
     /* Highlight the border */
@@ -88,4 +88,27 @@ code:hover,
         max-width: none;
         min-width: auto;
     }
+}
+
+@media (prefers-color-scheme: dark) {
+    .window {
+        background-color: #000000D8;
+        color: white;
+        text-decoration: white;
+    }
+
+    a {
+        color: lightblue;
+    }
+
+    .button {
+        background-color: white;
+        color: black;
+    }
+
+    .button:hover {
+        background-color: darkslategrey;
+        color: white;
+    }
+
 }
