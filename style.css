@@ -101,12 +101,12 @@ code:hover,
         color: lightblue;
     }
 
-    .button {
+    .button, button {
         background-color: white;
         color: black;
     }
 
-    .button:hover {
+    .button:hover, button:hover {
         background-color: darkslategrey;
         color: white;
     }
