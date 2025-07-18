@@ -4,6 +4,13 @@
         monospace;
 }
 
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .desk {
     display: flex;
     justify-content: center;
@@ -16,6 +23,8 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .window {
@@ -24,22 +33,28 @@
     text-align: left;
     backdrop-filter: blur(8px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    width: max-content;
+    min-width: 20%;
     max-width: 1150px;
     max-height: 90%;
     overflow: auto;
+    box-sizing: border-box;
+    width: clamp(300px, 40%, 600px);
 }
 
-button {
+button,
+.button {
     background-color: black;
     color: white;
     padding: 5px;
-    margin: 5px;
+    margin-bottom: 10px;
     margin-right: 1px;
     border: none;
+    text-decoration: none;
+    display: inline-block;
 }
 
-button:hover {
+button:hover,
+.button:hover {
     background-color: lightslategrey;
     text-decoration: underline dotted;
     cursor: pointer;
@@ -61,6 +76,8 @@ code,
 
 code:hover,
 .codeblock:hover {
-    background-color: rgba(50, 50, 50, 0.9); /* Slightly lighter on hover */
-    border-color: lightslategrey; /* Highlight the border */
+    background-color: rgba(50, 50, 50, 0.9);
+    /* Slightly lighter on hover */
+    border-color: lightslategrey;
+    /* Highlight the border */
 }
