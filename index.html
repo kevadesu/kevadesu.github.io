@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 </head>
 
 <body class="desk">
@@ -49,8 +51,11 @@
                 <img class="album-photo" id="album-cover" src="FirefoxInstaller.png" width="80px" height="80px"
                     alt="Album cover" />
                 <hgroup>
-                    <h4 id="music-track-name"> Nothing playing! </h4>
-                    <p id="music-artist-name"> Music activity shows up here. </p>
+                    <small id="music-playing-state"> &darr; NOT PLAYING </small>
+                    <marquee scrollamount="15" direction="left">
+                        <h4 id="music-track-name"> Nothing playing! <span>¯\_(ツ)_/¯</span> </h4>
+                    </marquee>
+                    <p id="music-artist-name"> Music activity shows up here. Maybe JS is disabled? </p>
                 </hgroup>
             </div>
         </div>
