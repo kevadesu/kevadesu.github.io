@@ -15,6 +15,12 @@
 </head>
 
 <body class="desk">
+    <!--for things that should not be merged into echostyle...-->
+    <style>
+        .album-photo {
+            margin-right: 10px;
+        }
+    </style>
     <div class="window">
         <h1 style="font-family: 'IBM Plex Sans'; font-weight: normal;">#kevadesu</h1>
         <!-- <h1> kevadesu </h1> -->
@@ -34,9 +40,26 @@
         <a rel="me" class="button" href='https://fosstodon.org/@kevadesu'>mstdn</a>
         <a rel="me" class="button" href='https://haj.rootsource.cc/@kevadesu'>fedi secondary</a>
         <div>
+            <h3> > music playing </h3>
+            <div id="player" style="display: flex;">
+                <!--                <img id="cover" src="image-missing.svg" alt="Album cover" />
+                <a id="player-go" href="#" target="_blank" rel="noopener noreferrer">Go to track</a>
+                    -->
+
+                <img class="album-photo" id="album-cover" src="FirefoxInstaller.png" width="80px" height="80px"
+                    alt="Album cover" />
+                <hgroup>
+                    <h4 id="music-track-name"> Nothing playing! </h4>
+                    <p id="music-artist-name"> Music activity shows up here. </p>
+                </hgroup>
+            </div>
+        </div>
+        <div>
             <h3> > more info </h3>
             <p> hello, i'm kevadesu! you may also know me by the names <b>keva</b>, or less commonly, <b>sam</b> online!
                 (not to be confused with others)</p>
+            <small> some people used to know me by my cirno pfp on some platforms, so if you want to call me cirno
+                that's fine by me too </small>
             <p> i was born and raised in the <b>german</b>-speaking part of switzerland! although, my native
                 language...is actually french, and THEN german, and THEN english, and THEN swiss german.</p>
             <p> of course, i speak spanish too! pero solo un poco... </p>
@@ -64,9 +87,10 @@
                 </div>
             </marquee>
         </div>
+        <hr>
         <p> do you like the theme used? <a href="https://kevadesu.github.io/echostyle">check it out here!</a></p>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
