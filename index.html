@@ -22,8 +22,9 @@
         .album-photo {
             margin-right: 10px;
         }
-    </style>
+        </style>
     <div class="window">
+        <noscript><div class="notice">JavaScript is disabled. JS-dependant features of this website, such as the music section won't work.</div></noscript>
         <h1 style="font-family: 'IBM Plex Sans'; font-weight: normal;">#kevadesu</h1>
         <!-- <h1> kevadesu </h1> -->
         <small> any/pronouns - linux user </small>
@@ -50,15 +51,19 @@
 
                 <img class="album-photo" id="album-cover" src="FirefoxInstaller.png" width="80px" height="80px"
                     alt="Album cover" />
-                <hgroup>
+                <hgroup style="width: 100%; line-height: 1%; padding-right: 1%;">
                     <small id="music-playing-state"> &darr; NOT PLAYING </small>
                     <marquee scrollamount="15" direction="left">
                         <h4 id="music-track-name"> Nothing playing! <span>¯\_(ツ)_/¯</span> </h4>
                     </marquee>
-                    <p id="music-artist-name"> Music activity shows up here. Maybe JS is disabled? </p>
+                    <marquee>
+                        <p id="music-artist-name"> Music activity shows up here. </p>
+                    </marquee>
                 </hgroup>
+                <a class="button" id="music-track-link" style="vertical-align: middle; line-height: 80px; padding-inline: 10px;">></a>
             </div>
         </div>
+        
         <div>
             <h3> > more info </h3>
             <p> hello, i'm kevadesu! you may also know me by the names <b>keva</b>, or less commonly, <b>sam</b> online!
