@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> kevadesu's website </title>
+    <link rel="icon" href="FirefoxInstaller.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+</head>
+
+<body class="desk" style="background-image: url('https://safebooru.org//images/1547/56143b8ebbe5bbfd96a558ab9a22a61cbe7d979c.jpg');">
+    <!--for things that should not be merged into echostyle...-->
+    <style>
+        .album-photo {
+            margin-right: 10px;
+        }
+
+        .PixelateMyFuckingImages {
+            image-rendering: crisp-edges;
+            image-rendering: pixelated;
+        }
+
+        .splash-entry:hover span {
+            display: none;
+        }
+
+        .splash-entry:hover:before {
+            content: "enter ////////////";
+        }
+
+        .squarewtext {
+            background: white;
+            color: black;
+        }
+
+        .pt-line-sbahn {
+            background: white;
+            color: black;
+        }
+
+        .pt-line-regio {
+            background: red;
+            color: white;
+        }
+
+        @media (prefers-color-scheme: light) {
+            .squarewtext {
+                background: black;
+                color: white;
+            }
+        }
+    </style>
+
+
+    <div class="window">
+        <noscript>
+            <div class="notice">JavaScript is disabled. JS-dependant features of this website, such as the music section
+                won't work.</div>
+        </noscript>
+        <h1 style="font-family: 'IBM Plex Sans'; font-weight: normal;">#kevadesu</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/InterRegio_logo_SBB_CFF_FFS.jpg">
+        <br>
+        <!-- <h1> kevadesu </h1> -->
+        <small> any/pronouns - linux user </small>
+        <h3> > links</h3>
+        <a class="button" href='https://costmiku.space'>costmiku</a>
+        <a class="button" href='https://github.com/kevadesu'>gitbub</a>
+        <a class="button" href='https://twitter.com/kevadesu_off'>twitter</a>
+        <a class="button" href='https://www.youtube.com/@kevadesu'>yt</a>
+        <a class="button" href='https://osu.ppy.sh/users/16327892'>osu!</a>
+        <a class="button" href='https://steamcommunity.com/id/kevadesu/'>steam</a>
+        <a class="button" href='https://www.reddit.com/user/kevadesu'>reddit</a>
+        <a class="button" href='https://www.twitch.tv/kevadesu'>twitch</a>
+        <a class="button" href='https://bsky.app/profile/kevadesu.bsky.social'>bsky</a>
+        <a class="button" href='https://tiktok.com/@kevadesu.ch'>tt (cringe warning)</a>
+        <a class="button" href='https://t.me/kevadesuwu'>tg</a>
+        <a class="button" href='https://www.last.fm/user/kevadesu'>lastfm</a>
+        <a class="button" href='mailto:kevadesu@costmiku.space'>mail</a>
+        <a rel="me" class="button" href='https://fosstodon.org/@kevadesu'>mstdn</a>
+        <a rel="me" class="button" href='https://haj.rootsource.cc/@kevadesu'>fedi secondary</a>
+        <div>
+            <h3> > music playing </h3>
+            <div id="player" style="display: flex;">
+                <!--                <img id="cover" src="image-missing.svg" alt="Album cover" />
+                <a id="player-go" href="#" target="_blank" rel="noopener noreferrer">Go to track</a>
+                    -->
+
+                <img class="album-photo" id="album-cover" src="FirefoxInstaller.png" width="80px" height="80px"
+                    alt="Album cover" />
+                <hgroup style="width: 100%; line-height: 1%; padding-right: 1%;">
+                    <small id="music-playing-state"> &darr; NOT PLAYING </small>
+                    <marquee scrollamount="10" direction="left">
+                        <h4 id="music-track-name"> Nothing playing! <span>¯\_(ツ)_/¯</span> </h4>
+                    </marquee>
+                    <marquee>
+                        <p id="music-artist-name"> Music activity shows up here. </p>
+                    </marquee>
+                </hgroup>
+                <a class="button" id="music-track-link"
+                    style="vertical-align: middle; line-height: 80px; padding-inline: 10px;">></a>
+            </div>
+        </div>
+
+        <div>
+            <h3> > more info </h3>
+            <p> hello, i'm kevadesu! you may also know me by the names <b>keva</b>, <b>neru (for some reason)</b>, or less commonly, <b>sam</b> online!
+                (not to be confused with others)</p>
+            <small> some people used to know me by my cirno pfp on some platforms, so if you want to call me cirno
+                that's fine by me too </small>
+            <p> i was born and raised in the <b>german</b>-speaking part of switzerland! although, my native
+                language...is actually french, and THEN german, and THEN english, and THEN swiss german.</p>
+            <p> of course, i speak spanish too! pero solo un poco... </p>
+            <p> although anche sto imperando la lingua italiana!! </p>
+            <p> i generally don't care about what pronouns you use to refer to me, i'm actually fine with any! </p>
+            <p> in my free time, i like to code, game, mess with computers, sometimes go outside and bike a bit etc.
+            </p>
+        </div>
+        <div>
+            <div class="notice">Linking a person under people or buttons does not automatically mean that I endorse every one of their opinions.</div>
+            <h3> > 88x31 buttons! </h3>
+            <marquee behavior="alternate" scrollamount="4">
+                <a href="https://ivanmarkov.net"><img class="PixelateMyFuckingImages" src="https://daudix.one/badges/badges/marchintosh.gif"></a>
+                <a href="https://daudix.one"><img class="PixelateMyFuckingImages" src="https://daudix.one/badges/badges/daudix.gif"></a>
+                <a href="https://xip.neocities.org"><img class="PixelateMyFuckingImages" src="https://daudix.one/badges/badges/pixlxip.gif"></a>
+                <a href="https://gra.phite.ro"><img class="PixelateMyFuckingImages" src="https://daudix.one/badges/badges/graphite.gif"></a>
+                <a href="https://lenenjoyer.co.uk"><img class="PixelateMyFuckingImages" src="https://lenenjoyer.co.uk/media/eve.png"></a>
+                <a href="https://portucode-pt.github.io/"><img class="PixelateMyFuckingImages" src="https://portucode-pt.github.io/assets/88x31.gif"></a>
+                <img class="PixelateMyFuckingImages" src="https://cyber.dabamos.de/88x31/archlinux.gif" alt="archlinux" height="31" width="88">
+                <img class="PixelateMyFuckingImages" src="https://daudix.one/badges/badges/mobilefriendly.gif" height="31" width="88">
+            </marquee>
+            <p>here's mine:</p>
+            <img class="PixelateMyFuckingImages" src="88x31.gif" width="88px" height="31px">
+            <h3> > people! </h3>
+            <small> for those without 88x31 buttons </small>
+            <marquee direction="right" scrolldelay="60" scrollamount="4">
+                <div>
+                    <a class="button" href='https://ivanmarkov.net/'>ivanmarkov</a>
+                    <a class="button" href='https://daudix.one'>daudix</a>
+                    <a class="button" href='https://xip.neocities.org'>pixl_xip</a>
+                    <a class="button" href='https://lenenjoyer.co.uk'>eve</a>
+                    <a class="button" href='https://tilde.green/~laniku'>laniku</a>
+                    <a class="button" href='https://aeronook.tech'>aeronook</a>
+                    <a class="button" href='https://duckss.me'>duckss</a>
+                    <a class="button" href='https://www.dsplash.xyz'>itsdoruk</a>
+                    <a class="button" href='https://cott3.github.io'>cott</a>
+                    <a class="button" href='https://gra.phite.ro'>graphite</a>
+                    <a class="button" href='https://mariowstech.github.io'>mariowstech</a>
+                    <a class="button" href='https://z6hy.carrd.co'
+                        style="background-color: #00000000; color: #00000000;">l1st3 duo</a>
+                </div>
+            </marquee>
+        </div>
+        <hr>
+        <p> do you like the theme used? <a href="https://kevadesu.github.io/echostyle">check it out here!</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
