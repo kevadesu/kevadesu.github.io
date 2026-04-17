@@ -91,6 +91,20 @@
             color: white;
         }
 
+        @-webkit-keyframes rotating {
+            from {
+                -webkit-transform: rotate(0deg);
+            }
+
+            to {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        .rotating {
+            -webkit-animation: rotating 2s linear infinite;
+        }
+
         @media (prefers-color-scheme: light) {
             .squarewtext {
                 background: black;
@@ -98,22 +112,15 @@
             }
         }
 
+        .album-photo {
+            border-radius: 100%;
+            border: dotted #8839ef 5px;
+            -webkit-animation: rotating 2s linear infinite;
+        }
+
         @media (prefers-color-scheme: dark) {
-            .window {
-                background-color: #11111bd8;
-                color: #cdd6f4
-            }
-
-            button,
-            .button {
-                background-color: #cdd6f4;
-                color: #11111b;
-            }
-
-            button:hover,
-            .button:hover {
-                background-color: #cba6f7;
-                color: #11111b;
+            .album-photo {
+                border: dotted #cba6f7 5px;
             }
         }
     </style>
