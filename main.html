@@ -19,6 +19,7 @@
 <body class="desk" style="background-image: url('https://safebooru.org//images/1064/405cbaac3dc8d72506f657c4471f3a92995c0e33.jpg');">
     <!--for things that should not be merged into echostyle...-->
     <style>
+        /* note to self: squarewtext is to be refactored */
         .album-photo {
             margin-right: 10px;
         }
@@ -77,8 +78,9 @@
         }
 
         .squarewtext {
-            background: white;
-            color: black;
+            /*background: #cdd6f4;*/
+            /*color: #dce0e8;*/
+            animation: pulse 0.5s infinite;
         }
 
         .pt-line-sbahn {
@@ -102,10 +104,12 @@
         }
 
         @media (prefers-color-scheme: light) {
+            /*
             .squarewtext {
-                background: black;
-                color: white;
+            background: #4c4f69;
+            color: #dce0e8;
             }
+            */
         }
 
         .album-photo {
@@ -119,6 +123,18 @@
                 border: dotted #cba6f7 5px;
             }
         }
+
+        @keyframes pulse {
+            0%, 100% {
+                background-color: #8839ef;
+                color: #dce0e8;
+            }
+            50% {
+                background-color: #cba6f7;
+                color: #11111b;
+            }
+        }
+        
     </style>
 
 
@@ -158,11 +174,13 @@
                 <img class="album-photo" id="album-cover" src="FirefoxInstaller.png" width="80px" height="80px"
                     alt="Album cover" />
                 <hgroup style="width: 100%; line-height: 1%; padding-right: 1%;">
-                    <small id="music-playing-state"> &darr; NOT PLAYING </small>
+                    <h5 id="music-playing-state" style="margin-top: 0px; margin-bottom: 6px;"> &darr; NOT PLAYING </h5>
+                    <div class="squarewtext">
                     <marquee scrollamount="10" direction="left">
-                        <h4 id="music-track-name"> Nothing playing! <span>¯\_(ツ)_/¯</span> </h4>
+                        <h3 id="music-track-name"> Nothing playing! <span>¯\_(ツ)_/¯</span> </h3>
                     </marquee>
-                    <marquee>
+                    </div>
+                    <marquee scrollamount="10">
                         <p id="music-artist-name"> Music activity shows up here. </p>
                     </marquee>
                 </hgroup>
