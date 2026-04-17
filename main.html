@@ -22,11 +22,51 @@
         .album-photo {
             margin-right: 10px;
         }
-
+        
         .PixelateMyFuckingImages {
             image-rendering: crisp-edges;
             image-rendering: pixelated;
         }
+        
+        /* theme equals catppuccin */
+
+        .window {
+            background-color: #dce0e8d8;
+            color: #4c4f69
+        }
+
+        button,
+        .button {
+            background-color: #4c4f69;
+            color: #dce0e8;
+        }
+
+        button:hover,
+        .button:hover {
+            background-color: #8839ef;
+            color: #dce0e8;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .window {
+                background-color: #11111bd8;
+                color: #cdd6f4
+            }
+
+            button,
+            .button {
+                background-color: #cdd6f4;
+                color: #11111b;
+            }
+
+            button:hover,
+            .button:hover {
+                background-color: #cba6f7;
+                color: #11111b;
+            }
+        }
+
+        /* end */
 
         .splash-entry:hover span {
             display: none;
@@ -55,6 +95,25 @@
             .squarewtext {
                 background: black;
                 color: white;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .window {
+                background-color: #11111bd8;
+                color: #cdd6f4
+            }
+
+            button,
+            .button {
+                background-color: #cdd6f4;
+                color: #11111b;
+            }
+
+            button:hover,
+            .button:hover {
+                background-color: #cba6f7;
+                color: #11111b;
             }
         }
     </style>
